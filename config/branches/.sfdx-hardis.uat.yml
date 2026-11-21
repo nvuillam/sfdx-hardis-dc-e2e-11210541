@@ -1,2 +1,4 @@
 mergeTargets:
   - main
+targetUsername: test-voisbcy2cwa5@example.com
+instanceUrl: https://velocity-dream-52412-dev-ed.scratch.my.salesforce.com
