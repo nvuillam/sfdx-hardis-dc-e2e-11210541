@@ -1,0 +1,18 @@
+projectName: sfdx-hardis-dc-e2e
+developmentBranch: integration
+testLevel: RunLocalTests
+useDeltaDeployment: false
+commandsPreDeploy:
+  - id: dc-pre-deploy-marker
+    label: DC pre-deploy marker
+    type: command
+    command: echo DC_PRE""_DEPLOY_MARKER
+    context: all
+    runOnlyOnceByOrg: false
+commandsPostDeploy:
+  - id: dc-post-deploy-marker
+    label: DC post-deploy marker
+    type: command
+    command: echo DC_POST""_DEPLOY_MARKER
+    context: all
+    runOnlyOnceByOrg: false
